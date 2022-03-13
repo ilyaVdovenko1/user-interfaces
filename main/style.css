@@ -11,7 +11,6 @@ body{
 a{
     color:none;
     text-decoration: none;
-
 }
 
 a.text{
@@ -32,34 +31,142 @@ a:active{
 li{
     text-decoration: none;
 }
+
 /*header styles*/
+/*black header all styles*/
+
 .black-header{
     width:1200px;
     height:30px;
     background: #000000;
     display:flex;
 }
-.white-header{
-    width:1200px;
-    height:107px;
-    background: #ffffff;
-    display:flex;
-}
 
 .header-custom{
     color:#fff;
     font-size: 11px;
-    margin-left: 115px;
-    margin-top: 10px;
+    margin-left: 114px;
+    margin-top: 9px;
     vertical-align: middle;
 }
 
 .header-number{
     color:#fff;
     font-size: 12px;
-    margin-left: 9px;
-    margin-top: 9px;
+    margin-left: 6px;
+    margin-top: 8px;
     vertical-align: middle;
+    padding-right: 564px;
+}
+
+header .stick-1{
+    border-right: 2px solid #404040;
+    font:18px;
+    margin-left: 6px;
+    padding-top: 12px;
+}
+
+header .selector{
+    color:#ffffff;
+    background-color: #000000;
+    margin-left: 10px;
+    font-size: 11px;
+    outline: none;
+    margin-top: 1px;
+    border:none; 
+}
+
+header .user{
+    margin-left: 11px;
+    padding-top: 7px;
+    padding-left: 14px;
+    border-left: 2px solid #404040;
+}
+
+header .account{
+    color:#f7f7f7;
+    margin-top: 10px;
+    margin-left: 9px;
+    font-size: 11px;
+}
+
+header .loop{
+    color:#f7f7f7;
+    margin-left: 15px;
+    padding-top: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left: 2px solid #404040;
+    border-right: 2px solid #404040;
+}
+
+/*white header all styles*/
+
+.white-header{
+    display:flex;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    border-bottom: 1px solid #544f4d;
+    margin-right: 434px;
+   
+}
+
+header .top-five-links li{
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+header .top-link-one{
+    margin-left: 178px;
+    margin-bottom: 10px;   
+}
+
+header .top-link-two{
+    margin-left: 28px;
+   
+}
+
+header .top-link-three{
+    margin-left: 28px;
+    
+}
+
+header .top-link-four{
+    margin-left: 29px;
+  
+}
+
+header .top-link-five{
+    margin-left: 28px;
+   
+}
+
+header .top-five-links li a{
+    display: block;  
+}
+
+.triangle-down{
+    width: 0;
+	height: 0;
+	border-left:  3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 6px solid #000000;
+}
+
+.triangle-first{
+    margin-top: 9px;
+}
+
+.your-cart-photo{
+    /*margin-top: 10px;*/
+    padding-top: 5px;
+    padding-left: 24px;
+    padding-bottom: 19px;
+    margin-top: 4px;
 }
 
 /*main body styles*/
@@ -158,37 +265,30 @@ footer .right-part-of-footer{
 }
 
 .circle-one-style{
-   
-    margin-top: 16px;
-    
+    margin-top: 16px;  
 }
 .circle-two-style{
     margin-left: 45px;
-    margin-top: -35px;
-    
+    margin-top: -35px;   
 }
 
 .circle-three-style{
     margin-left: 90px;
-    margin-top: -35px;
-    
+    margin-top: -35px;    
 }
 
 .circle-four-style{
-    margin-top: 8px;
-    
+    margin-top: 8px;   
 }
 
 .circle-five-style{
     margin-left: 46px;
-    margin-top: -35px;
-    
+    margin-top: -35px;    
 }
 
 .circle-six-style{
     margin-left: 91px;
-    margin-top: -35px;
-    
+    margin-top: -35px;   
 }
 
 .logos{
@@ -244,6 +344,12 @@ footer .lookshop-footer{
     margin-left: 436px;
     margin-top: 23px;
     color: #a19f9a;    
+}
+
+footer .link-in-main-page{
+    font-size: 11px;
+    margin-top: 23px;
+    margin-left: 3px;
 }
 
 footer .rights-footer{
