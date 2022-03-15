@@ -35,6 +35,17 @@ li{
 /*header styles*/
 /*black header all styles*/
 
+body{
+    margin:0 auto;
+    width:100%;
+    max-width:1200px;
+    max-height: 2380px;
+}
+
+.alighcenter{
+    text-align: center;
+}
+
 .black-header{
     width:1200px;
     height:30px;
@@ -46,7 +57,7 @@ li{
     color:#fff;
     font-size: 11px;
     margin-left: 114px;
-    margin-top: 9px;
+    margin-top: 10px;
     vertical-align: middle;
 }
 
@@ -106,10 +117,13 @@ header .loop{
     display:flex;
     align-items: center;
     margin-left: 110px;
-    margin-top: 8px;
+    margin-top: 22px;
     flex-wrap: wrap;
-    border-bottom: 1px solid #544f4d;
-    margin-right: 434px;   
+    margin-bottom: 18px;
+}
+
+header .logo-photo{
+    margin-top: 3px;
 }
 
 header .top-five-links li{
@@ -156,10 +170,7 @@ header .top-five-links li a{
 }
 
 .your-cart-photo{
-    padding-top: 5px;
     padding-left: 24px;
-    padding-bottom: 19px;
-    margin-top: 4px;
 }
 
 /*main body styles*/
@@ -169,10 +180,9 @@ header .top-five-links li a{
 main .first-one-string{
     margin-left: 110px;
     margin-top: 4px;
+    margin-bottom: 10px;
     padding-left: 6px;
-    padding-bottom: 7px;
-    margin-right: 433px;
-    border-bottom: 1px solid #544f4d;
+    display: block;
 }
 
 main .first-one-string li{
@@ -183,7 +193,7 @@ main .first-one-string li{
 
 .main_page{
     width:1200px;
-    height:1614px;
+    height:1417px;
     background: #ffffff;
     display:flex;
 }
@@ -271,21 +281,19 @@ main .hr-settings{
 hr{
     margin-top: -4px;
     margin-left: 115px;
-    margin-right: 434px;
-}
-
-main .five-circles{
-
+    margin-right:115px;
+    background-color: #cccccc;
+    border:0px;
+    height:1px;
 }
 
 main .dot {
     height: 10px;
     width: 10px;
-    
     border-radius: 50%;
     display: inline-block;
     margin-top: 18px;
-  }
+}
 
 main .first-little-circle{
     margin-left: 534px;
@@ -301,6 +309,7 @@ main .third-little-circle{
     margin-left: 15px;
     background-color: #8f8f8f;
 }
+
 /*footer styles*/
 
 /*Light-gray-footer all styles*/
