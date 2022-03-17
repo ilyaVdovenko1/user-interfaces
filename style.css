@@ -193,7 +193,7 @@ main .first-one-string li{
 
 .main_page{
     width:1200px;
-    height:1417px;
+    height:936px;
     background: #ffffff;
     display:flex;
 }
@@ -230,6 +230,7 @@ main .ul-slider-settings{
     color: #8f8f8f;
     margin-top:20px;
     padding-top: 2px;
+    padding-bottom: 5px;
 }
 
 main .li-padding-slider{
@@ -238,7 +239,7 @@ main .li-padding-slider{
 
 main .big-button-settings{
     font-family: Arial, Helvetica, sans-serif;
-    margin-top:31px;
+    margin-top:29px;
     background-color: #fd926d;
     color: #f7f7f7;
     padding-top: 8px;
@@ -251,8 +252,8 @@ main .big-button-settings{
 
 main .plus-in-button{
     font-size: 22px;
-    margin-left: 16px;
-    margin-top: 40px;
+    margin-left: 14px;
+    margin-top: 70px;
 }
 
 main .left-arrow{
@@ -278,7 +279,7 @@ main .hr-settings{
     height: 2px;
 }
 
-hr{
+hr {
     margin-top: -4px;
     margin-left: 115px;
     margin-right:115px;
@@ -308,6 +309,256 @@ main .second-little-circle{
 main .third-little-circle{
     margin-left: 15px;
     background-color: #8f8f8f;
+}
+
+/*main all styles*/
+
+main .second-string-in-main-with-photos{
+    margin-top: 16px;
+    display:flex;
+}
+
+main .second-photo-in-second-string{
+    margin-left: 30px;
+}
+
+main .big-gray-square-in-main{
+    height: 105px;
+    width: 220px;
+    background-color: #f9f5f4;
+    margin-top: -4px;
+    text-align: center;
+}
+
+main .name-of-product{
+    font-size: 12px;
+    color:#373737;
+    padding-top: 10px;
+    text-align: center;
+}
+
+main .price-of-product{
+    font-size: 22px;
+    color:#373737;
+    padding-top: 7px;
+    text-align: center;
+}
+
+main .button-in-main-settings{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fd926d;
+    color: #f7f7f7;
+    margin-top: 5px;
+    height: 32px;
+    width: 120px;
+    border: none;
+    border-bottom: 3px solid #dd6b44;
+   text-align: none;
+}
+
+main .plus-in-button-in-main{
+   margin-top: 2px;
+   padding-left: 5px;
+}
+
+
+main .main-photos{
+    display: flex;
+    margin-left: 115px;
+}
+
+main .main-with-photos{
+    margin-top: 33px;
+}
+
+main .main-sidebar{
+    
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+main .first-string-in-main-with-photos{
+    display:flex;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #a19f9e;
+  
+}
+
+main .sort-by-settings{
+    font-size:11px;
+    color: #4d4d4d;
+}
+
+main .custom-select{
+    margin-top: -10px;
+    color:#000000;
+    background-color: #f4f4f4;
+    margin-left: 9px;
+    font-size: 11px;
+    outline: none;
+    border:none; 
+    cursor: pointer;
+    padding-left:4px ;
+}
+
+main .padding-for-text{
+    padding-left: 294px;
+}
+
+main .first-gray-square{
+    height: 30px;
+    width: 30px;
+    background-color: #e5e5e5;
+    margin-left: 15px;
+    margin-top: -9px;
+}
+
+main .edit-first-number{
+    color:#4d4d4d;
+    font-size: 11px;
+    margin-top: 9px;
+    margin-left: 12px;
+}
+
+main .other-gray-square{
+    height: 30px;
+    width: 30px;
+    background-color: #f4f4f4;
+    margin-left: 4px;
+    margin-top: -9px;
+}
+
+main .edit-last-number{
+    color:#4d4d4d;
+    font-size: 18px;
+    margin-top: 6px;
+    margin-left: 11px;
+}
+
+/*sidebar all styles*/
+
+main .big-black-square{
+    height: 30px;
+    width: 230px;
+    background-color: #000000;
+    font-size: 12px;
+    color: white;
+}
+
+main .setting-p-class-o-categories{
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+main .new-settings{
+    color: #727272;
+    font-size: 12px;
+    margin-top: 14px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #a19f9e;
+}
+
+main .plus-in-new{
+    color: #000000;
+    margin-left: 195px;
+}
+
+main .designers-settings{
+    color: #727272;
+    font-size: 12px;
+    margin-top: 7px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #a19f9e;
+}
+
+main .plus-in-designers{
+    color: #000000;
+    margin-left: 153px;
+}
+
+main .women-settings{
+    color: #727272;
+    font-size: 12px;
+    margin-top: -1px;
+    padding-bottom: 5px;
+   
+}
+
+main .minus-in-women{
+    color: #000000;
+    margin-left: 176px;
+    font-size: 20px;
+}
+
+main .first-string-with-orange-string{
+    display: flex;
+}
+
+main .first-orange-square{
+    height: 5px;
+    width: 6px;
+    background-color: #fd926d;
+    margin-left: 6px;
+    margin-top: 7px;  
+}
+
+main .edit-clothes-text{
+    margin-left: 5px;
+    font-size: 11px;
+    color: black;
+    margin-top: 3px;
+   font-weight: bold;
+}
+
+main .second-string-with-orange-string{
+    display: flex;
+    margin-top: 3px;
+    padding-bottom: 2px;
+}
+
+main .second-orange-square{
+    height: 5px;
+    width: 6px;
+    background-color: #fd926d;
+    margin-left: 6px;
+    margin-top: 7px;  
+}
+
+main .edit-shoes-text{
+    margin-left: 5px;
+    font-size: 11px;
+    color: #727272;
+    margin-top: 3px;
+  
+}
+
+main .men-settings{
+    color: #727272;
+    font-size: 12px;
+    margin-top: 7px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #a19f9e;
+    border-top: 1px solid #a19f9e;
+}
+
+main .plus-in-men{
+    color: #000000;
+    margin-left: 197px;
+}
+
+main .clearance-settings{
+    color: #727272;
+    font-size: 12px;
+    margin-top: 7px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #a19f9e;
+}
+
+main .plus-in-clearance{
+    color: #000000;
+    margin-left: 150px;
 }
 
 /*footer styles*/
