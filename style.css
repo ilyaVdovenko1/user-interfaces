@@ -193,7 +193,7 @@ main .first-one-string li{
 
 .main_page{
     width:1200px;
-    height:936px;
+    
     background: #ffffff;
     display:flex;
 }
@@ -311,57 +311,7 @@ main .third-little-circle{
     background-color: #8f8f8f;
 }
 
-/*main all styles*/
-
-main .second-string-in-main-with-photos{
-    margin-top: 16px;
-    display:flex;
-}
-
-main .second-photo-in-second-string{
-    margin-left: 30px;
-}
-
-main .big-gray-square-in-main{
-    height: 105px;
-    width: 220px;
-    background-color: #f9f5f4;
-    margin-top: -4px;
-    text-align: center;
-}
-
-main .name-of-product{
-    font-size: 12px;
-    color:#373737;
-    padding-top: 10px;
-    text-align: center;
-}
-
-main .price-of-product{
-    font-size: 22px;
-    color:#373737;
-    padding-top: 7px;
-    text-align: center;
-}
-
-main .button-in-main-settings{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    background-color: #fd926d;
-    color: #f7f7f7;
-    margin-top: 5px;
-    height: 32px;
-    width: 120px;
-    border: none;
-    border-bottom: 3px solid #dd6b44;
-   text-align: none;
-}
-
-main .plus-in-button-in-main{
-   margin-top: 2px;
-   padding-left: 5px;
-}
-
+/*main first string all styles*/
 
 main .main-photos{
     display: flex;
@@ -372,11 +322,7 @@ main .main-with-photos{
     margin-top: 33px;
 }
 
-main .main-sidebar{
-    
-    margin-top: 25px;
-    margin-left: 20px;
-}
+
 
 main .first-string-in-main-with-photos{
     display:flex;
@@ -436,7 +382,60 @@ main .edit-last-number{
     margin-left: 11px;
 }
 
+main .second-string-in-main-with-photos{
+    margin-top: 16px;
+    display:flex;
+}
+
+main .second-photo-in-second-string{
+    margin-left: 30px;
+}
+
+main .big-gray-square-in-main{
+    height: 105px;
+    width: 220px;
+    background-color: #f9f5f4;
+    margin-top: -4px;
+    text-align: center;
+}
+
+main .name-of-product{
+    font-size: 12px;
+    color:#373737;
+    padding-top: 10px;
+    text-align: center;
+}
+
+main .price-of-product{
+    font-size: 22px;
+    color:#373737;
+    padding-top: 7px;
+    text-align: center;
+}
+
+main .button-in-main-settings{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fd926d;
+    color: #f7f7f7;
+    margin-top: 5px;
+    height: 32px;
+    width: 120px;
+    border: none;
+    border-bottom: 3px solid #dd6b44;
+   text-align: none;
+}
+
+main .plus-in-button-in-main{
+   margin-top: 2px;
+   padding-left: 5px;
+}
 /*sidebar all styles*/
+
+main .main-sidebar{
+    margin-top: 25px;
+    margin-left: 20px;
+}
 
 main .big-black-square{
     height: 30px;
@@ -449,6 +448,7 @@ main .big-black-square{
 main .setting-p-class-o-categories{
     padding-top: 8px;
     padding-left: 10px;
+    letter-spacing: -0.3px;
 }
 
 main .new-settings{
@@ -481,8 +481,7 @@ main .women-settings{
     color: #727272;
     font-size: 12px;
     margin-top: -1px;
-    padding-bottom: 5px;
-   
+    padding-bottom: 5px; 
 }
 
 main .minus-in-women{
@@ -508,7 +507,7 @@ main .edit-clothes-text{
     font-size: 11px;
     color: black;
     margin-top: 3px;
-   font-weight: bold;
+    font-weight: bold;
 }
 
 main .second-string-with-orange-string{
@@ -529,8 +528,7 @@ main .edit-shoes-text{
     margin-left: 5px;
     font-size: 11px;
     color: #727272;
-    margin-top: 3px;
-  
+    margin-top: 3px; 
 }
 
 main .men-settings{
@@ -561,11 +559,268 @@ main .plus-in-clearance{
     margin-left: 150px;
 }
 
+main .align-of-crawl-menu{
+    margin-top: 23px;
+}
+
+main .string-under-crawl-menu{
+    display: flex;
+}
+
+main .settings-to-price-string{
+    font-size: 12px;
+    color:#848484;
+    margin-top: 6px;
+}
+
+main .padding-in-price-string{
+   padding-left: 1px;
+   padding-right: 1px;
+}
+
+main .gray-button-in-sidebar-settings{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #e5e5e5;
+    color: #4d4d4d;
+    margin-top:-3px;
+    margin-left: 73px;
+    height: 31px;
+    width: 70px;
+    border: none;
+    border-bottom: 3px solid #cccccc;
+}
+
+main .select-your-size{
+    display:flex;
+    margin-top: 35px;
+}
+
+main .select-your-size-settings{
+    font-size: 12px;
+    color: #5e5e5e;
+    padding-right: 2px;
+    margin-right:1px;
+    letter-spacing: -0.5px; 
+}
+
+main .select-your-size-settings-2{
+    font-size: 12px;
+    color: #5e5e5e;
+}
+
+main .five-squares-in-sidebar{
+    display:flex;
+    margin-top: 13px;
+    padding-bottom: 39px;
+}
+
+main .first-gray-square-in-sidebar{
+    height: 30px;
+    width: 30px;
+    background-color: #f4f4f4; 
+    text-align: center;
+}
+
+main .edit-first-number-in-sidebar{
+    color:#4d4d4d;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+main .other-gray-square-in-sidebar{
+    height: 30px;
+    width: 30px;
+    background-color: #f4f4f4;
+    margin-left: 7px;
+    text-align: center;
+}
+
+main .edit-last-number-in-sidebar{
+    color:#4d4d4d;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+main .other-orange-square-in-sidebar{
+    height: 30px;
+    width: 30px;
+    background-color: #fd926d;
+    margin-left: 7px;
+    text-align: center;
+}
+
+main .edit-last-number-orange-in-sidebar{
+    color:white;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/*second-row-with-photos*/
+
+main .main-photos-second{
+    display: flex;
+    margin-left: 115px;
+}
+
+main .main-with-photos-second-row{
+    margin-top: 11px;
+}
+
+main .first-string-in-main-with-photo-second{
+    margin-top: 16px;
+    display:flex;
+}
+
+/*second sidebar all styles*/
+
+main .main-sidebar-second{
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+main .first-photo-in-second-sidebar{
+    display: flex;
+}
+
+main .first-text-in-second-sidebar{
+    font-size: 12px;
+    color:#5e5e5e;
+    margin-left: 10px;
+    margin-top: -1px;
+    letter-spacing: -0.5px;
+    
+}
+
+main .second-text-in-second-sidebar{
+    font-size: 15px;
+    color:#fd926d;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: -81px;
+}
+
+ main .low-hight-line{
+    margin-top: 10px;
+    height: 0.5px;
+    width: 230px;
+    background-color: #a19f9e;
+ }
+
+ main .second-photo-in-second-sidebar{
+    display: flex;
+    margin-top: 9px;
+}
+
+ main .first-text-in-second-sidebar-2{
+    font-size: 12px;
+    color:#5e5e5e;
+    margin-left: 10px;
+    margin-top: -1px;
+    letter-spacing: -0.5px;
+}
+
+ main .second-text-in-second-sidebar-2{
+    font-size: 15px;
+    color:#fd926d;
+    font-weight: bold;
+    margin-top: 19px;
+    margin-left: -106px; 
+}
+
+main .low-hight-line-2{
+    margin-top: 9px;
+    height: 0.5px;
+    width: 230px;
+    background-color: #a19f9e;
+ }
+
+ main .first-text-in-second-sidebar-3{
+    font-size: 12px;
+    color:#5e5e5e;
+    margin-left: 10px;
+    margin-top: -1px;
+    letter-spacing: -0.5px;
+}
+
+ main .second-text-in-second-sidebar-3{
+    font-size: 15px;
+    color:#fd926d;
+    font-weight: bold;
+    margin-top: 19px;
+    margin-left: -83px; 
+}
+
+main .low-hight-line-3{
+    margin-top: 9px;
+    height: 0.5px;
+    width: 230px;
+    background-color: #a19f9e;
+    margin-bottom: 25px;
+ }
+
+ /*third row with photos*/
+
+ main .main-photos-third{
+    display: flex;
+    margin-left: 115px;
+}
+
+main .main-with-photos-third-row{
+    margin-top: 15px;
+}
+
+main .first-string-in-main-with-photo-third{
+    margin-top: 16px;
+    display:flex;
+}
+
+/*last sidebar all styles*/
+
+main .main-sidebar-third{
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+main .second-text-in-third-sidebar{
+    font-size: 15px;
+    color:#fd926d;
+    font-weight: bold;
+    margin-top: 19px;
+    margin-left: -112px;
+}
+
+main .second-text-in-third-sidebar-2{
+    font-size: 15px;
+    color:#fd926d;
+    font-weight: bold;
+    margin-top: 19px;
+    margin-left: -42px;
+}
+
+main .second-text-in-third-sidebar-3{
+    font-size: 15px;
+    color:#fd926d;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: -124px;
+}
+
+main .last-string-in-main{
+    display:flex;
+    margin-top: 35px;
+    margin-left: 258px;
+    padding-bottom: 32px;
+}
+
 /*footer styles*/
 
 /*Light-gray-footer all styles*/
 
-.light-gray-footer{
+footer .light-gray-footer{
     width:1200px;
     height:58px;
     background: #f7f7f7;
